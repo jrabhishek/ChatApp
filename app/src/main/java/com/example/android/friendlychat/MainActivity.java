@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
 
                 } else {
                     //user is signed out
-                    onSignedCleanUp();
+                   // onSignedCleanUp();
 
                     startActivityForResult(
                             AuthUI.getInstance()
